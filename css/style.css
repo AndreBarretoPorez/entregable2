@@ -1,0 +1,27 @@
+body {
+  
+
+button{
+    background-color: rgba(221, 244, 255, 1);
+    text-align:right;
+}
+.imagen1 { 
+  width: 300px;
+}
+div{display: inline; 
+  .caja1 {
+    background-color: rosybrown;
+  }
+  
+  .caja2 {
+    background-color: lightcoral;
+  }
+}
+  .caja3 {
+    background-color: lightgreen;
+}
+.fa-brands { 
+    color:#52a2f8;
+    font-size: 24px; 
+}
+}
