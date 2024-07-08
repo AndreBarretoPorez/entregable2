@@ -1,27 +1,300 @@
-body {
-  
 
-button{
-    background-color: rgba(221, 244, 255, 1);
-    text-align:right;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 1440px;
+  height: 1833px;
 }
-.imagen1 { 
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+
+.encabezado{ /** logo boton y login**/
+  width: 1322px;
+  height: 91px;  
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;  
+  align-items: center;
+  background: rgba(250, 250, 250, 1);
+}
+.contenedor2{ /**palabra logo**/
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 1); 
+}
+h4{/** slide**/
+  size: 14;
+  text-align: left;
+  color: rgba(150, 187, 124, 1);
+}
+.boton{ /** boton y login no logré alinear el boton con el login**/
+  font-family:"Montserrat", sans-serif ;
+  background: rgba(255, 255, 255, 1);
+  size: 14px;
+  padding: 0px;
+  gap: 45px;
   width: 300px;
-}
-div{display: inline; 
-  .caja1 {
-    background-color: rosybrown;
-  }
+  height: 52px;
+  display: inline-block;
+  gap: 30px;
   
-  .caja2 {
-    background-color: lightcoral;
-  }
 }
-  .caja3 {
-    background-color: lightgreen;
+.boton1{
+  background-color: rgba(150, 187, 124, 1);
+  text-align:center;
+  color:rgba(255, 255, 255, 1);
+  border: none;
+  margin: 20px 80px;
+  padding: 15px 25px 15px 25px;
+  Size: 14px;
+  width: 137px;
+  height: 52px:
+  white-space: nowrap;
 }
+.palabraLogo{
+  width: 187px;
+  height: 58px;
+  top: 17px;
+  left: 136px;
+  padding: 13px 124px 13px 0px;
+  gap: 10px;
+  color: rgba(37, 43, 66, 1);
+  size: 24px;
+}
+.cuerpoPrincipal{
+  display: flex;
+  align-items: flex-end;
+  align-content: flex-end;
+  height: 777px;
+  width: 1440px;
+  background-color: #DDF4FF;
+}
+.cuerpo {/** contenedor con dos cajas la de la imagen y la del texto**/
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 1440px;
+  height: 777px;
+  padding: 95px 0px 0px 0px;
+  gap: 40px; */
+}
+
+.texto{
+  width: 573px;
+  height: 386px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 15px 90px;
+  
+}
+
+.primerParrafo{
+  size: 16px;
+}
+.tetextoGrande{
+size: 58;
+font-family: Montserrat;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+background: rgb(18, 19, 22)
+
+}
+.segundoParrafo{
+  size: 20;
+}
+.boton2{
+  width: 193px;
+  height: 52px;
+  padding: 15px 40px 15px 40px;
+  gap: 10px;
+  border-radius: 5px 0px 0px 0px;
+  background-color:rgba(150, 187, 124, 1);
+  border: none;
+  color: white;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  white-space: nowrap;
+}
+.boton3{
+  width: 162px;
+  height: 52px;
+  padding: 15px 40px 15px 40px;
+  gap: 10px;
+  border-radius: 5px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  border: none;
+  font-family: Montserrat;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: rgba(150, 187, 124, 1);
+  white-space: nowrap;
+}
+.botones{ 
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.donut{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  transform: translate(-150%, -20px);
+  border-radius: 70%;
+  border: 100px solid #B8F0D7;
+  z-index: ;
+}
+.contenedorImagen{
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+  transform: translate(800px, -100px);
+}
+.imagenNiña { 
+  width: 300px;
+  background-image: rgba(221, 244, 255, 1);
+  width: 532.15px;
+  height: auto;
+  position: absolute;
+
+}
+.singles{
+  transform: translate(-750px, -300px);
+  width: 162.35px;
+  height: 81.88px;
+  top: 237.18px;
+  left: 66px;
+}
+.global{
+  transform: translate(-450px, -180px);
+  width: 196.24px;
+  height: 183.53px;
+  top: 278.12px;
+  left: 544px;
+}
+.scores{
+  transform: translate(-1100px, -70px);
+  width: 218.82px;
+  height: 149.65px;
+  top: 483px;
+  left: 101.65px;
+}
+
+
+.espacioImagen {
+  background-color:rgba(221, 244, 255, 1) ;
+  width: 704px;
+  height: 682px;
+}
+      
+p {color: rgba(150, 187, 124, 1);
+}
+
+
+.estadisticos{
+  background-color: rgba(255, 255, 255, 1);
+  width: 1440px;
+  height: 264;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  text-align: center;
+  justify-content: space-evenly;
+  justify-content: flex-center;
+  align-items: center;
+}
+
+h1{
+  color:  rgba(150, 187, 124, 1);
+  size: 58;
+}
+
+h5{
+  color: rgba(37, 43, 66, 1);
+  size: 24px; 
+}
+.educacion {
+  width: 1,050px;
+  height: 718px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 90px;
+  background: rgba(255, 242, 243, 1);
+}
+.cuadroContenedor{
+width: 1440px;
+height: 718px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+background: rgba(255, 242, 243, 1);
+align-items: flex-start;
+}
+
+h5{
+  color: rgba(37, 43, 66, 1);
+  size: 16px;
+}
+p{
+  Size:14px;
+  line-height: 20px:
+}
+
+.contenedorIconos{
+  width: 1045px;
+  height: 268px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;  
+}
+.primerIcono  {
+  background-color: white;
+  width: 328px;
+  height: 268px;
+  padding: 35px 40px 35px 40px;
+}
+.segundoIcono {
+  background-color: white;
+  width: 348px;
+  height: 268px;
+  padding: 35px 40px 35px 40px; 
+}
+.tercerIcono {
+  background-color: white;
+  width: 329px;
+  height: 268px;
+  padding: 35px 40px 35px 40px;    
+}
+    
+.seccionFooter{
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: flex-center;
+  align-items: center;
+  size: 14px;
+  padding: 0 40px, 0, 40px;
+  background: rgba(250, 250, 250, 1);
+  width: 1440px;
+  height: 74px;
+}
+
 .fa-brands { 
-    color:#52a2f8;
-    font-size: 24px; 
+  color:rgba(150, 187, 124, 1);
+  font-size: 24px;
+  text-align: center;
 }
+  
+.iconosRedes {
+  text-align: center;
+}
+
+.imagen2{
+height: auto;
+width: 25%;
 }
